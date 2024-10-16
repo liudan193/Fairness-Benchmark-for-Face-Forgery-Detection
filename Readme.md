@@ -44,7 +44,7 @@ Fairness-Benchmark-for-Face-Forgery-Detection (This repository)
 
 ### 1. Installation
 
-You need to bulid the conda or docker environment. You can build the environment following this [Link](https://github.com/SCLBD/DeepfakeBench?tab=readme-ov-file#-quick-start) to set up the environment. Do not forget to download pretrained weights in [TODO]. 
+You need to bulid the conda or docker environment. You can build the environment following this [Link](https://github.com/SCLBD/DeepfakeBench?tab=readme-ov-file#-quick-start) to set up the environment. Do not forget to download pretrained weights in `./pretrained` folder. 
 
 Download needed files and organize the directory structure as [Get our FairFD dataset](#-get-our-fairfd-dataset). 
 
