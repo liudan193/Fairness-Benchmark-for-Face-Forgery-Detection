@@ -5,6 +5,9 @@
 ![Main](fig/main.jpg)
 
 
+This is the official project repository for the paper ["Thinking Racial Bias in Fair Forgery Detection: Models, Datasets and Evaluations"](https://arxiv.org/abs/2407.14367v2). 
+
+
 ## 🎁 Get our FairFD dataset
 
 Please fill out this brief questionnaire [[Link]](https://docs.google.com/forms/d/e/1FAIpQLSdCAqk1olTdUci0S03KPDDzTrCElsvxJhCOQphAbbsZKGXiBA/viewform?usp=sf_link)  to access our dataset and pretrained weights. We will promptly provide a download link.
@@ -45,7 +48,7 @@ Fairness-Benchmark-for-Face-Forgery-Detection (This repository)
 
 ### 1. Installation
 
-You need to set up the Conda or Docker environment. You can build the environment by following this [Link](https://github.com/SCLBD/DeepfakeBench?tab=readme-ov-file#-quick-start). Please remember to download the pretrained weights into the ./pretrained folder.
+You need to set up the Conda or Docker environment. You can build the environment by following this [Link](https://github.com/SCLBD/DeepfakeBench?tab=readme-ov-file#-quick-start). Please remember to download the pretrained weights into the [`./pretrained`](./pretrained) folder.
 
 After downloading the necessary files, kindly organize the directory structure as outlined in [Get our FairFD dataset](#-get-our-fairfd-dataset).
 
