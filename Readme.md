@@ -10,7 +10,7 @@ This is the official project repository for the paper ["Thinking Racial Bias in 
 
 ## 🎁 Get our FairFD dataset
 
-Please fill out this brief questionnaire [[Link]](https://docs.google.com/forms/d/e/1FAIpQLSdCAqk1olTdUci0S03KPDDzTrCElsvxJhCOQphAbbsZKGXiBA/viewform?usp=sf_link)  to access our dataset and pretrained weights. We will promptly provide a download link.
+Please fill out this brief questionnaire [[Link]](https://docs.google.com/forms/d/e/1FAIpQLSdCAqk1olTdUci0S03KPDDzTrCElsvxJhCOQphAbbsZKGXiBA/viewform?usp=sf_link)  to access our dataset and pretrained weights. We will promptly provide a download link. After our paper is accepted, we will public the download link. 
 
 After downloading, organize the directory structure as follows:
 
