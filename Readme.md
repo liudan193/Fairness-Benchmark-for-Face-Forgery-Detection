@@ -7,9 +7,10 @@
 
 ## 🎁 Get our FairFD dataset
 
-Please fill out this brief questionnaire [[Link]](https://docs.google.com/forms/d/e/1FAIpQLSdCAqk1olTdUci0S03KPDDzTrCElsvxJhCOQphAbbsZKGXiBA/viewform?usp=sf_link) to obtain our dataset and pretrained weights. We will timely return a link to download the content. 
+Please fill out this brief questionnaire [[Link]](https://docs.google.com/forms/d/e/1FAIpQLSdCAqk1olTdUci0S03KPDDzTrCElsvxJhCOQphAbbsZKGXiBA/viewform?usp=sf_link)  to access our dataset and pretrained weights. We will promptly provide a download link.
 
-After downloading the dataset and model weights, organize the directory structure as:
+After downloading, organize the directory structure as follows:
+
 ```
 dataset
 ├── test
@@ -44,13 +45,13 @@ Fairness-Benchmark-for-Face-Forgery-Detection (This repository)
 
 ### 1. Installation
 
-You need to bulid the conda or docker environment. You can build the environment following this [Link](https://github.com/SCLBD/DeepfakeBench?tab=readme-ov-file#-quick-start) to set up the environment. Do not forget to download pretrained weights in `./pretrained` folder. 
+You need to set up the Conda or Docker environment. You can build the environment by following this [Link](https://github.com/SCLBD/DeepfakeBench?tab=readme-ov-file#-quick-start). Please remember to download the pretrained weights into the ./pretrained folder.
 
-Download needed files and organize the directory structure as [Get our FairFD dataset](#-get-our-fairfd-dataset). 
+After downloading the necessary files, kindly organize the directory structure as outlined in [Get our FairFD dataset](#-get-our-fairfd-dataset).
 
 ### 2. Get confidence scores
 
-Aftering installating well, you can run the following scripts to get the confidence scores of a provided model. 
+After successful installation, you can run the following scripts to obtain the confidence scores for the provided model. 
 
 ```bash
 # For normal models
@@ -66,32 +67,25 @@ python test-get-confidence-fairness-enhanced.py \
 
 ### 3. Get benchmark results
 
-Follow our step by step notebook `calculate_benchmark.ipynb` to calculate the final metrics based on previous confidence scores. 
+Please follow our step-by-step notebook [`calculate_benchmark.ipynb`](calculate_benchmark.ipynb) to compute the final metrics based on the previous confidence scores.
 
 ## 🏆 Benchmark Results
 
 ![BenchmarkResults](fig/benchmark_results.jpg)
 
-## 🎯 Bias Pruning with Fair Activations (BPFA)
+## 🎯 New SOTA with our Bias Pruning with Fair Activations (BPFA)
 
-We provide step by step notebooks to conduct pruning. 
+### Conduct pruning
+We provide step by step notebooks [`pruning_pipeline.ipynb`](pruning_pipeline.ipynb) for normal models and [`pruning_pipeline-fairness-enhanced.ipynb`](pruning_pipeline-fairness-enhanced.ipynb) for fairness trained models to conduct pruning. 
 
-```bash
-# For normal models
-pruning_pipeline.ipynb
-
-# For fairness trained models
-pruning_pipeline-fairness-enhanced.ipynb
-```
-
-## 🎯 New SOTA with our BPFA
+### Results
 
 ![BPFA](fig/BPFA.jpg)
 
 
 ## 🏷️ Citation
 
-If you have found FairFD or BPFA useful in your research, please consider citing the following paper:
+If FairFD or BPFA is useful for your research, please consider citing the following paper: 
 
 ```bibtex
 @article{liu2024thinking,
@@ -105,4 +99,26 @@ If you have found FairFD or BPFA useful in your research, please consider citing
 
 ## Acknowledgement
 
-In the implementation of this benchmark, we acknowledge the code and some weights from the repository: https://github.com/SCLBD/DeepfakeBench (NeruIPS 2023). 
+We acknowledge the use of code and some weights from https://github.com/SCLBD/DeepfakeBench (NeruIPS 2023) and code from https://github.com/Purdue-M2/AI-Face-FairnessBench. If you cite our paper, please consider citing their paper as well:
+
+```bibtex
+@inproceedings{DeepfakeBench_YAN_NEURIPS2023,
+ author = {Yan, Zhiyuan and Zhang, Yong and Yuan, Xinhang and Lyu, Siwei and Wu, Baoyuan},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Oh and T. Neumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
+ pages = {4534--4565},
+ publisher = {Curran Associates, Inc.},
+ title = {DeepfakeBench: A Comprehensive Benchmark of Deepfake Detection},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/0e735e4b4f07de483cbe250130992726-Paper-Datasets_and_Benchmarks.pdf},
+ volume = {36},
+ year = {2023}
+}
+
+@article{lin2024aiface,
+  title={AI-Face: A Million-Scale Demographically Annotated AI-Generated Face Dataset and Fairness Benchmark},
+  author={Li Lin and Santosh and Xin Wang and Shu Hu},
+  journal={arXiv preprint arXiv:2406.00783},
+  year={2024}
+}
+```
+
