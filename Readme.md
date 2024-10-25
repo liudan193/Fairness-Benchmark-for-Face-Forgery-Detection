@@ -1,11 +1,11 @@
 # Thinking Racial Bias in Fair Forgery Detection: Models, Datasets and Evaluations
 
-[![Paper](https://img.shields.io/badge/arXiv-2407.14367v2-blue)](https://arxiv.org/abs/2407.14367v2)
+[![Paper](https://img.shields.io/badge/arXiv-2407.14367-blue)](https://arxiv.org/abs/2407.14367)
 
 ![Main](fig/main.jpg)
 
 
-This is the official project repository for the paper ["Thinking Racial Bias in Fair Forgery Detection: Models, Datasets and Evaluations"](https://arxiv.org/abs/2407.14367v2). 
+This is the official project repository for the paper ["Thinking Racial Bias in Fair Forgery Detection: Models, Datasets and Evaluations"](https://arxiv.org/abs/2407.14367). 
 
 
 ## 🎁 Get our FairFD dataset
@@ -96,7 +96,7 @@ If FairFD or BPFA is useful for your research, please consider citing the follow
   author={Liu, Decheng and Wang, Zongqi and Peng, Chunlei and Wang, Nannan and Hu, Ruimin and Gao, Xinbo},
   journal={arXiv preprint arXiv:2407.14367},
   year={2024},
-  url={https://arxiv.org/abs/2407.14367v2}
+  url={https://arxiv.org/abs/2407.14367}
 }
 ```
 
