@@ -12,7 +12,9 @@ This is the official project repository for the paper ["Thinking Racial Bias in 
 
 <!-- Please click this [Link](https://mailstsinghuaeducn-my.sharepoint.com/:f:/g/personal/zq-wang24_mails_tsinghua_edu_cn/EvaLlK_b1PpAgDIIoxHb34YBMLPEKlC5FxvQAviO221uCA?e=OcVNzp) to access our dataset and pretrained weights. The FairFD dataset is available for non-commercial research purposes only. FairFD is built upon RFW, so please also follow the [RFW's license](http://whdeng.cn/RFW/Training%EF%BC%88%E6%AD%A3%E5%BC%8F%E7%89%88%EF%BC%89/license.html). -->
 
-https://docs.google.com/forms/d/1N4SN2D6YLFhji505nn9K1pQTupJhJMJmmQuJzilbxAs/viewform?edit_requested=true
+Please fill out the [questionnaire](https://docs.google.com/forms/d/1N4SN2D6YLFhji505nn9K1pQTupJhJMJmmQuJzilbxAs/viewform?edit_requested=true) to access our dataset and pretrained weights. FairFD is built upon RFW, so please also follow the [RFW's license](http://whdeng.cn/RFW/Training%EF%BC%88%E6%AD%A3%E5%BC%8F%E7%89%88%EF%BC%89/license.html). 
+
+
 
 After downloading, organize the directory structure as follows:
 
