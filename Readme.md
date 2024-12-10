@@ -5,12 +5,12 @@
 ![Main](fig/main.jpg)
 
 
-This is the official project repository for the paper ["Thinking Racial Bias in Fair Forgery Detection: Models, Datasets and Evaluations"](https://arxiv.org/abs/2407.14367v2). 
+This is the official project repository for the paper ["Thinking Racial Bias in Fair Forgery Detection: Models, Datasets and Evaluations"](https://arxiv.org/abs/2407.14367v2) (AAAI 2025). This paper proposes a fairness evaluation dataset for deepfake detection, along with a pruning-based method to enhance fairness.
 
 
 ## 🎁 Get our FairFD dataset
 
-Please fill out this brief questionnaire [[Link]](https://docs.google.com/forms/d/e/1FAIpQLSdCAqk1olTdUci0S03KPDDzTrCElsvxJhCOQphAbbsZKGXiBA/viewform?usp=sf_link)  to access our dataset and pretrained weights. We will promptly provide a download link. After our paper is accepted, we will public the download link. 
+Please click this [Link](https://mailstsinghuaeducn-my.sharepoint.com/:f:/g/personal/zq-wang24_mails_tsinghua_edu_cn/EvaLlK_b1PpAgDIIoxHb34YBMLPEKlC5FxvQAviO221uCA?e=OcVNzp) to access our dataset and pretrained weights. The FairFD dataset is available for non-commercial research purposes only. FairFD is built upon RFW, so please also follow the [RFW's license](http://whdeng.cn/RFW/Training%EF%BC%88%E6%AD%A3%E5%BC%8F%E7%89%88%EF%BC%89/license.html).
 
 After downloading, organize the directory structure as follows:
 
@@ -102,26 +102,10 @@ If FairFD or BPFA is useful for your research, please consider citing the follow
 
 ## Acknowledgement
 
-We acknowledge the use of code and some weights from https://github.com/SCLBD/DeepfakeBench (NeruIPS 2023) and code from https://github.com/Purdue-M2/AI-Face-FairnessBench. If you cite our paper, please consider citing their paper as well:
+We acknowledge the use of dataset, code and some weights from https://github.com/SCLBD/DeepfakeBench (NeruIPS 2023) and code from https://github.com/Purdue-M2/AI-Face-FairnessBench. If you cite our paper, please consider citing their paper as well:
 
-```bibtex
-@inproceedings{DeepfakeBench_YAN_NEURIPS2023,
- author = {Yan, Zhiyuan and Zhang, Yong and Yuan, Xinhang and Lyu, Siwei and Wu, Baoyuan},
- booktitle = {Advances in Neural Information Processing Systems},
- editor = {A. Oh and T. Neumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
- pages = {4534--4565},
- publisher = {Curran Associates, Inc.},
- title = {DeepfakeBench: A Comprehensive Benchmark of Deepfake Detection},
- url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/0e735e4b4f07de483cbe250130992726-Paper-Datasets_and_Benchmarks.pdf},
- volume = {36},
- year = {2023}
-}
+1. Yan, Zhiyuan, Yong Zhang, Xinhang Yuan, Siwei Lyu, and Baoyuan Wu. "DeepfakeBench: a comprehensive benchmark of deepfake detection." In Proceedings of the 37th International Conference on Neural Information Processing Systems (NeurIPS), 2023.
+2. Lin, Li, Xin Wang, and Shu Hu. "AI-Face: A Million-Scale Demographically Annotated AI-Generated Face Dataset and Fairness Benchmark." arXiv preprint arXiv:2406.00783 (2024).
+3. Wang, Mei, Weihong Deng, Jiani Hu, Xunqiang Tao, and Yaohai Huang. "Racial faces in the wild: Reducing racial bias by information maximization adaptation network." In Proceedings of the ieee/cvf international conference on computer vision (ICCV), 2019.
 
-@article{lin2024aiface,
-  title={AI-Face: A Million-Scale Demographically Annotated AI-Generated Face Dataset and Fairness Benchmark},
-  author={Li Lin and Santosh and Xin Wang and Shu Hu},
-  journal={arXiv preprint arXiv:2406.00783},
-  year={2024}
-}
-```
 
