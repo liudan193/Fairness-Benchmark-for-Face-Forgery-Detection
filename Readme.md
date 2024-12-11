@@ -12,11 +12,11 @@ This is the official project repository for the paper ["Thinking Racial Bias in 
 
 ### ⭐⭐⭐ 1. Download FairFD dataset
 
-First click this [link](https://mailstsinghuaeducn-my.sharepoint.com/:f:/g/personal/zq-wang24_mails_tsinghua_edu_cn/Ek17ILchHktAn_7qTwT13s4B7Ku6hI3JHRnqM2j0TweQpw?e=GNBK8j) to download our FairFD dataset. You will need a password to unzip the downloaded dataset. Please follow the steps below to obtain the password.
+First click this [link](https://mailstsinghuaeducn-my.sharepoint.com/:f:/g/personal/zq-wang24_mails_tsinghua_edu_cn/Ek17ILchHktAn_7qTwT13s4B7Ku6hI3JHRnqM2j0TweQpw?e=GNBK8j) to download our FairFD dataset. You will need a **password** to unzip the downloaded dataset. Please follow the steps below to obtain the **password**.
 
 1. Since FairFD is built upon RFW, you should first obtain authorization from [RFW](http://whdeng.cn/RFW/testing.html). After that, please include the email you received from RFW in your email to us.
 2. Our dataset also has a license, which you can read here: [license](./license.md).
-3. Please email **Zongqi Wang (zq-wang24@mails.tsinghua.edu.cn)** to obtain the password. We will respond as soon as possible. Please ensure that your email is sent from a valid official (University or Company) account and includes the following information: 
+3. Please email **Zongqi Wang (zq-wang24@mails.tsinghua.edu.cn)** to obtain the **password**. We will respond as soon as possible. Please ensure that your email is sent from a valid official (University or Company) account and includes the following information: 
 
 ```
 Subject: Application to download the FairFD
