@@ -122,6 +122,17 @@ If FairFD or BPFA is useful for your research, please consider citing the follow
   url={https://arxiv.org/abs/2407.14367}
 }
 ```
+Other related works are as follows:
+```bibtex
+@article{liu2023fedforgery,
+  title={FedForgery: generalized face forgery detection with residual federated learning},
+  author={Liu, Decheng and Dang, Zhan and Peng, Chunlei and Zheng, Yu and Li, Shuang and Wang, Nannan and Gao, Xinbo},
+  journal={IEEE Transactions on Information Forensics and Security},
+  year={2023},
+  publisher={IEEE}
+}
+```
+
 
 ## Acknowledgement
 
