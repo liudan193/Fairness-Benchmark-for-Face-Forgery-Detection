@@ -10,18 +10,35 @@ This is the official project repository for the paper ["Thinking Racial Bias in 
 
 ## 🎁 Get our FairFD dataset
 
-<!-- Please click this [Link](https://mailstsinghuaeducn-my.sharepoint.com/:f:/g/personal/zq-wang24_mails_tsinghua_edu_cn/EvaLlK_b1PpAgDIIoxHb34YBMLPEKlC5FxvQAviO221uCA?e=OcVNzp) to access our dataset and pretrained weights. The FairFD dataset is available for non-commercial research purposes only. FairFD is built upon RFW, so please also follow the [RFW's license](http://whdeng.cn/RFW/Training%EF%BC%88%E6%AD%A3%E5%BC%8F%E7%89%88%EF%BC%89/license.html). -->
+### 1. Download
 
-Please fill out the [questionnaire](https://docs.google.com/forms/d/1N4SN2D6YLFhji505nn9K1pQTupJhJMJmmQuJzilbxAs/viewform?edit_requested=true) to access our dataset and pretrained weights. FairFD is built upon RFW, so please also follow the [RFW's license](http://whdeng.cn/RFW/Training%EF%BC%88%E6%AD%A3%E5%BC%8F%E7%89%88%EF%BC%89/license.html). 
+First click this [link](https://mailstsinghuaeducn-my.sharepoint.com/:f:/g/personal/zq-wang24_mails_tsinghua_edu_cn/Ek17ILchHktAn_7qTwT13s4B7Ku6hI3JHRnqM2j0TweQpw?e=GNBK8j) to download our FairFD dataset. You will need a password to unzip the downloaded dataset. Please follow the steps below to obtain the password.
+
+1. Since FairFD is built upon RFW, you should first obtain authorization from [RFW](http://whdeng.cn/RFW/testing.html). After that, please include the email you received from RFW in your email to us.
+2. Our dataset also has a license, which you can read here: [license](./license.md).
+3. Please email **Zongqi Wang (zq-wang24@mails.tsinghua.edu.cn)** to obtain the password. We will respond as soon as possible. Please ensure that your email is sent from a valid official (University or Company) account and includes the following information: 
+
+```
+Subject: Application to download the FairFD
+Name: (your first and last name)
+Affiliation: (University or Company where you work)
+Department: (your department)
+Position: (your job title)
+Email: (must be the email at the above mentioned institution)
+
+I have read and agree to the terms and conditions specified in the FairFD license.
+The email content responsed by RFW in step1. 
+```
 
 
+### 2. Organize the directory structure
 
 After downloading, organize the directory structure as follows:
 
 ```
 dataset
 ├── test
-|   ├── FaceSwap
+|   ├── data
 |   │   ├── African
 |   │   │   └── *.jpg
 |   │   ├── Asian
@@ -30,7 +47,7 @@ dataset
 |   │   │   └── *.jpg
 |   │   ├── Indian
 |   │   │   └── *.jpg
-|   ├── SimSwap
+|   ├── FaceSwap
 |   │   ├── African
 |   │   │   └── *.jpg
 |   │   ├── Asian
@@ -47,6 +64,8 @@ weights
 Fairness-Benchmark-for-Face-Forgery-Detection (This repository)
 └── code(*.py/.ipynb)
 ```
+
+Note that `./dataset/test/data/` is the directory for real face.
 
 ## ⏳ Quick Start
 
