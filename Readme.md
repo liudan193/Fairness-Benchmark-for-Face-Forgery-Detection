@@ -10,7 +10,7 @@ This is the official project repository for the paper ["Thinking Racial Bias in 
 
 ## 🎁 Get our FairFD dataset
 
-### 1. Download
+### ⭐⭐⭐ 1. Download FairFD dataset
 
 First click this [link](https://mailstsinghuaeducn-my.sharepoint.com/:f:/g/personal/zq-wang24_mails_tsinghua_edu_cn/Ek17ILchHktAn_7qTwT13s4B7Ku6hI3JHRnqM2j0TweQpw?e=GNBK8j) to download our FairFD dataset. You will need a password to unzip the downloaded dataset. Please follow the steps below to obtain the password.
 
