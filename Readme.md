@@ -1,11 +1,13 @@
-# Thinking Racial Bias in Fair Forgery Detection: Models, Datasets and Evaluations
+# Thinking Racial Bias in Fair Forgery Detection: Models, Datasets and Evaluations (AAAI 2025)
 
 [![Paper](https://img.shields.io/badge/arXiv-2407.14367-blue)](https://arxiv.org/abs/2407.14367)
+
+[**AAAI 2024 Proceedings**](https://ojs.aaai.org/index.php/AAAI/article/view/32572)
 
 ![Main](fig/main.jpg)
 
 
-This is the official project repository for the paper ["Thinking Racial Bias in Fair Forgery Detection: Models, Datasets and Evaluations"](https://arxiv.org/abs/2407.14367v2) (AAAI 2025). This paper proposes a fairness evaluation dataset for deepfake detection, along with a pruning-based method to enhance fairness.
+This is the official project repository for the paper ["Thinking Racial Bias in Fair Forgery Detection: Models, Datasets and Evaluations"](https://arxiv.org/abs/2407.14367) (AAAI 2025). This paper proposes a fairness evaluation dataset for deepfake detection, along with a pruning-based method to enhance fairness.
 
 
 ## 🎁 Get our FairFD dataset
