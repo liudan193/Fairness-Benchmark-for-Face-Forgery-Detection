@@ -2,7 +2,7 @@
 
 [![Paper](https://img.shields.io/badge/arXiv-2407.14367-blue)](https://arxiv.org/abs/2407.14367)
 
-[**AAAI 2024 Proceedings**](https://ojs.aaai.org/index.php/AAAI/article/view/32572)
+[**Paper Link (AAAI 2025 Proceedings)**](https://ojs.aaai.org/index.php/AAAI/article/view/32572)
 
 ![Main](fig/main.jpg)
 
